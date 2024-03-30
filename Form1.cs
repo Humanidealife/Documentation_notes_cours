@@ -16,5 +16,13 @@ namespace Documentation_notes_cours
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Users u1 = new Users("ANCRE", "123");
+            u1.Information();
+            MessageBox.Show(u1.Username);
+            u1.Affiche();
+        }
     }
 }
