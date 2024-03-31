@@ -49,3 +49,14 @@ _NCrunch_*
 
 # Ignore Visual Studio files
 .vs/
+
+# Ignore for Documentation
+_site/
+_site_pdf/
+apidoc/
+api/
+log.txt
+
+
+# Ignore Publish
+publish/
